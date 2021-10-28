@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vista Administrador</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/admin.js"></script>
+  <body bgcolor="#FCF3CF">
+<font face="Georgia">
+<nav>
+
+  <div class="nav-wrapper amber lighten-1">
+        <a href="#" class="brand-logo">Administrador</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+  </nav>
+    <div class="container section" align ="left">
+
+      <a href="#" class="sidenav-trigger" data-target="menu"><i class="material-icons">menu</i></a>
+
+      <ul class="sidenav" id="menu">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="img/img3.jpg" alt="" width="100%">
+            </div>
+            <a href="#"><img src="img/user1.png" alt="" class="circle"></a>
+            <a href="#"><span class="name white-text">Usuario</span></a>
+            <a href="#"><span class="email white-text">usuario@gmail.com</span></a>
+          </div>
+        </li>
+        <li>
+          <a href="entrada-salida.php"><i class="material-icons">add_box</i>Entrada/Salida de Producto</a>
+        </li>
+        <li>
+          <a href="entrada-salidaT.php"><i class="material-icons">badge</i>Planilla de Trabajadores</a>
+        </li>
+        <li>
+          <a href="costo_primo.php"><i class="material-icons">$</i>Costo Primo</a>
+        </li>
+        <li>
+          <a href="completa.php"><i class="material-icons">inventory</i>Vista de Datos Completos</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <form  action="index.html" method="post">
+
+      <button class="btn waves-effect waves-light amber darken-1" type="submit" name="action"><font face="Georgia">Salir</font>
+       <i class="material-icons right">keyboard_return</i>
+      </button>
+
+    </form>
+
+  </font>
+  </body>
+</html>
